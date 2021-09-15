@@ -1,0 +1,39 @@
+
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{csquotes}% Recommended
+
+\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
+
+\addbibresource{ml.bib}% Syntax for version >= 1.2
+
+\title{How machine-learning recommendations influence clinician treatment selections: the example of antidepressant selection}
+
+
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\text Work Submited by Samuel Kago N11/3/0549/018
+\begin{abstract}
+Decision support systems embodying machine learning models offer the promise of an improved standard of care for major depressive disorder, but little is known about how clinicians’ treatment decisions will be influenced by machine learning recommendations and explanations. We used a within-subject factorial experiment to present 220 clinicians with patient vignettes, each with or without a machine-learning (ML) recommendation and one of the multiple forms of explanation. We found that interacting with ML recommendations did not significantly improve clinicians’ treatment selection accuracy, assessed as concordance with expert psychopharmacologist consensus, compared to baseline scenarios in which clinicians made treatment decisions independently. Interacting with incorrect recommendations paired with explanations that included limited but easily interpretable information did lead to a significant reduction in treatment selection accuracy compared to baseline questions. These results suggest that incorrect ML recommendations may adversely impact clinician treatment selections and that explanations are insufficient for addressing overreliance on imperfect ML algorithms. More generally, our findings challenge the common assumption that clinicians interacting with ML tools will perform better than either clinicians or ML algorithms individually.
+\end{abstract}
+
+\section*{Citation examples}
+
+\begin{enumerate}
+\item 
+Cristina Del-Real, Chandra Ward, Mina Sartipi. (2021) What do people want in a smart city? Exploring the stakeholders’ opinions, priorities and perceived barriers in a medium-sized city in the United States. International Journal of Urban Sciences 0:0, pages 1-25.
+ \parencite{Smith:2012qr}.
+\item Digital Transformation, Cyber Security and Resilience of Modern Societies, pages 413-428 \textcite{Smith:2013jd} said \dots
+\item Tan Yigitcanlar. (2021) Smart City Beyond Efficiency: Technology–Policy–Community at Play for Sustainable Urban Futures. Housing Policy Debate 31:1, pages 88-92.
+Asif Faisal, Tan Yigitcanlar, Md. Kamruzzaman, Alexander Paz. (2020) Mapping Two Decades of Autonomous Vehicle Research: A Systematic Scientometric Analysis. Journal of Urban Technology 0:0, pages 1-30. .: \autocite{Other:2014ab}.
+\end{enumerate}
+
+\printbibliography
+
+\end{document}
