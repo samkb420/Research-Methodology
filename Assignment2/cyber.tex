@@ -1,0 +1,39 @@
+% A simple example showing how to create Harvard style referencing in LaTeX
+% 
+% See http://tex.stackexchange.com/questions/102662/harvard-reference-using-biblatex
+% for further discussion
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{csquotes}% Recommended
+
+\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
+
+\addbibresource{cyber.bib}% Syntax for version >= 1.2
+
+\title{Strategic leadership in cyber security, case Finland}
+\author{WriteLaTeX}
+\date{}
+
+\begin{document}
+\maketitle
+\text Work Submited by Samuel Kago N11/3/0549/018
+\begin{abstract}
+Cyber security has become one of the biggest priorities for businesses and governments. Streamlining and strengthening strategic leadership are key aspects in making sure the cyber security vision is achieved. The strategic leadership of cyber security implies identifying and setting goals based on the protection of the digital operating environment. Furthermore, it implies coordinating actions and preparedness as well as managing extensive disruptions. The aim of this article is to define what is strategic leadership of cyber security and how it is implemented as part of the comprehensive security model in Finland. In terms of effective strategic leadership of cyber security, it is vital to identify structures that can respond to the operative requirements set by the environment. As a basis for national security development and preparedness, it is necessary to have a clear strategy level leadership model for crises management in disturbances in normal and in emergency conditions. In order to ensure cyber security and achieve the set strategic goals, society must be able to engage different parties and reconcile resources and courses of action as efficiently as possible. Cyber capability must be developed in the entire society, which calls for strategic coordination, management and executive capability.
+\end{abstract}
+
+\section*{Citation examples}
+
+\begin{enumerate}
+\item 
+
+Kirsi Aaltola. 2021. Empirical Study on Cyber Range Capabilities, Interactions and Learning Features. . \parencite{Smith:2012qr}.
+\item Digital Transformation, Cyber Security and Resilience of Modern Societies, pages 413-428 \textcite{Smith:2013jd} said \dots
+\item A citation command which automatically switches style depending on location and the option setting in the package declaration (see line 12 in the LaTeX source code). In this case, it produces a citation in parentheses: \autocite{Other:2014ab}.
+\end{enumerate}
+
+\printbibliography
+
+\end{document}
