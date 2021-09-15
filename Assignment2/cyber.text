@@ -1,0 +1,37 @@
+
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{csquotes}% Recommended
+
+\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
+
+\addbibresource{ai.bib}% Syntax for version >= 1.2
+
+\title{How Are Smart City Concepts and Technologies Perceived and Utilized? A Systematic Geo-Twitter Analysis of Smart Cities in Australia}
+\author{WriteLaTeX}
+\date{}
+
+\begin{document}
+\maketitle
+\text Work Submited by Samuel Kago N11/3/0549/018
+\begin{abstract}
+“Smart cities” is a hot topic in debates about urban policy and practice across the globe. There is, however, limited knowledge and understanding about trending smart city concepts and technologies; relationships between popular smart city concepts and technologies; policies that influence the perception and utilization of smart city concepts and technologies. The aim of this study is to evaluate how smart city concepts and technologies are perceived and utilized in cities. The methodology involves a social media analysis approach—i.e., systematic geo-Twitter analysis—that contains descriptive, content, policy, and spatial analyses. For the empirical investigation, the Australian context is selected as the testbed. The results reveal that: (a) innovation, sustainability, and governance are the most popular smart city concepts; (b) internet-of-things, artificial intelligence, and autonomous vehicle technology are the most popular technologies; (c) a balanced view exists on the importance of both smart city concepts and technologies; (d) Sydney, Melbourne, and Brisbane are the leading Australian smart cities; (e) systematic geo-Twitter analysis is a useful methodological approach for investigating perceptions and utilization of smart city concepts and technologies. The findings provide a clear snapshot of community perceptions on smart city concepts and technologies, and can inform smart city policymaking.
+\end{abstract}
+
+\section*{Citation examples}
+
+\begin{enumerate}
+\item 
+Cristina Del-Real, Chandra Ward, Mina Sartipi. (2021) What do people want in a smart city? Exploring the stakeholders’ opinions, priorities and perceived barriers in a medium-sized city in the United States. International Journal of Urban Sciences 0:0, pages 1-25.
+ \parencite{Smith:2012qr}.
+\item Digital Transformation, Cyber Security and Resilience of Modern Societies, pages 413-428 \textcite{Smith:2013jd} said \dots
+\item Tan Yigitcanlar. (2021) Smart City Beyond Efficiency: Technology–Policy–Community at Play for Sustainable Urban Futures. Housing Policy Debate 31:1, pages 88-92.
+Asif Faisal, Tan Yigitcanlar, Md. Kamruzzaman, Alexander Paz. (2020) Mapping Two Decades of Autonomous Vehicle Research: A Systematic Scientometric Analysis. Journal of Urban Technology 0:0, pages 1-30. .: \autocite{Other:2014ab}.
+\end{enumerate}
+
+\printbibliography
+
+\end{document}
